@@ -134,7 +134,7 @@ yaml
 | Auto Retraining | Airflow + MLflow | 자동 재학습 파이프라인 구축 |
 | SaaS 전환 | Multi-Tenant 구조 | 중소기업형 구독 서비스화 |
 
----
+```
 
 ## 폴더 구조
 
@@ -155,10 +155,8 @@ SmartStock-AI/
 ┃ ┗ SmartStockAI_Planning_Doc.pdf
 ┗ README.md
 
-yaml
-코드 복사
 
----
+```
 
 ## Project Documents
 
