@@ -49,7 +49,6 @@ SmartStock AI의 사용자 여정은 **데이터 업로드 → 예측 → 정책
 | 4 | “대시보드 보기” 클릭 | Fill Rate·품절률 등 KPI 시각화 |
 | 5 | Open API 질의 | GPT-4가 자연어 질의에 실시간 응답 |
 
-![Upload Forecast Page](images/upload_forecast_page.png)
 
 ---
 
