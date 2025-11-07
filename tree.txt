@@ -1,0 +1,114 @@
+backend
+ ┣ alembic
+ ┃ ┣ versions
+ ┃ ┃ ┣ __pycache__
+ ┃ ┃ ┃ ┣ 2fd3f2232673_add_upload_job_table.cpython-311.pyc
+ ┃ ┃ ┃ ┣ 2fd3f2232673_add_upload_job_table.cpython-313.pyc
+ ┃ ┃ ┃ ┣ 7817911dd5e9_initial_setup.cpython-311.pyc
+ ┃ ┃ ┃ ┣ 7817911dd5e9_initial_setup.cpython-313.pyc
+ ┃ ┃ ┃ ┣ c0044e099897_create_initial_tables.cpython-311.pyc
+ ┃ ┃ ┃ ┗ c0044e099897_create_initial_tables.cpython-313.pyc
+ ┃ ┃ ┣ 2fd3f2232673_add_upload_job_table.py
+ ┃ ┃ ┣ 7817911dd5e9_initial_setup.py
+ ┃ ┃ ┗ c0044e099897_create_initial_tables.py
+ ┃ ┣ __pycache__
+ ┃ ┃ ┣ env.cpython-311.pyc
+ ┃ ┃ ┗ env.cpython-313.pyc
+ ┃ ┣ env.py
+ ┃ ┣ README
+ ┃ ┗ script.py.mako
+ ┣ app
+ ┃ ┣ core
+ ┃ ┃ ┣ __pycache__
+ ┃ ┃ ┃ ┣ config.cpython-311.pyc
+ ┃ ┃ ┃ ┣ config.cpython-313.pyc
+ ┃ ┃ ┃ ┣ database.cpython-311.pyc
+ ┃ ┃ ┃ ┣ database.cpython-313.pyc
+ ┃ ┃ ┃ ┣ __init__.cpython-311.pyc
+ ┃ ┃ ┃ ┗ __init__.cpython-313.pyc
+ ┃ ┃ ┣ config.py
+ ┃ ┃ ┣ database.py
+ ┃ ┃ ┗ __init__.py
+ ┃ ┣ db
+ ┃ ┃ ┣ session.py
+ ┃ ┃ ┗ __init__.py
+ ┃ ┣ models
+ ┃ ┃ ┣ __pycache__
+ ┃ ┃ ┃ ┣ base.cpython-311.pyc
+ ┃ ┃ ┃ ┣ base.cpython-313.pyc
+ ┃ ┃ ┃ ┣ product.cpython-311.pyc
+ ┃ ┃ ┃ ┣ product.cpython-313.pyc
+ ┃ ┃ ┃ ┣ sales.cpython-311.pyc
+ ┃ ┃ ┃ ┣ sales.cpython-313.pyc
+ ┃ ┃ ┃ ┣ tenant.cpython-311.pyc
+ ┃ ┃ ┃ ┣ tenant.cpython-313.pyc
+ ┃ ┃ ┃ ┣ upload_job.cpython-311.pyc
+ ┃ ┃ ┃ ┣ upload_job.cpython-313.pyc
+ ┃ ┃ ┃ ┣ user.cpython-311.pyc
+ ┃ ┃ ┃ ┣ user.cpython-313.pyc
+ ┃ ┃ ┃ ┣ __init__.cpython-311.pyc
+ ┃ ┃ ┃ ┗ __init__.cpython-313.pyc
+ ┃ ┃ ┣ base.py
+ ┃ ┃ ┣ product.py
+ ┃ ┃ ┣ sales.py
+ ┃ ┃ ┣ tenant.py
+ ┃ ┃ ┣ upload_job.py
+ ┃ ┃ ┣ user.py
+ ┃ ┃ ┗ __init__.py
+ ┃ ┣ routers
+ ┃ ┃ ┣ __pycache__
+ ┃ ┃ ┃ ┣ analytics.cpython-311.pyc
+ ┃ ┃ ┃ ┣ analytics.cpython-313.pyc
+ ┃ ┃ ┃ ┣ prediction.cpython-311.pyc
+ ┃ ┃ ┃ ┣ upload.cpython-311.pyc
+ ┃ ┃ ┃ ┣ upload.cpython-313.pyc
+ ┃ ┃ ┃ ┣ __init__.cpython-311.pyc
+ ┃ ┃ ┃ ┗ __init__.cpython-313.pyc
+ ┃ ┃ ┣ analytics.py
+ ┃ ┃ ┣ prediction.py
+ ┃ ┃ ┣ upload.py
+ ┃ ┃ ┗ __init__.py
+ ┃ ┣ schemas
+ ┃ ┃ ┣ __pycache__
+ ┃ ┃ ┃ ┣ upload.cpython-311.pyc
+ ┃ ┃ ┃ ┣ upload.cpython-313.pyc
+ ┃ ┃ ┃ ┣ __init__.cpython-311.pyc
+ ┃ ┃ ┃ ┗ __init__.cpython-313.pyc
+ ┃ ┃ ┣ upload.py
+ ┃ ┃ ┗ __init__.py
+ ┃ ┣ services
+ ┃ ┃ ┣ __pycache__
+ ┃ ┃ ┃ ┣ upload_service.cpython-311.pyc
+ ┃ ┃ ┃ ┣ upload_service.cpython-313.pyc
+ ┃ ┃ ┃ ┣ __init__.cpython-311.pyc
+ ┃ ┃ ┃ ┗ __init__.cpython-313.pyc
+ ┃ ┃ ┣ upload_service.py
+ ┃ ┃ ┗ __init__.py
+ ┃ ┣ uploads
+ ┃ ┣ utils
+ ┃ ┃ ┣ __pycache__
+ ┃ ┃ ┃ ┣ file_handler.cpython-311.pyc
+ ┃ ┃ ┃ ┣ file_handler.cpython-313.pyc
+ ┃ ┃ ┃ ┣ __init__.cpython-311.pyc
+ ┃ ┃ ┃ ┗ __init__.cpython-313.pyc
+ ┃ ┃ ┣ file_handler.py
+ ┃ ┃ ┗ __init__.py
+ ┃ ┣ __pycache__
+ ┃ ┃ ┣ main.cpython-311.pyc
+ ┃ ┃ ┣ main.cpython-313.pyc
+ ┃ ┃ ┣ __init__.cpython-311.pyc
+ ┃ ┃ ┗ __init__.cpython-313.pyc
+ ┃ ┣ best_inventory_model.keras
+ ┃ ┣ label_encoders.pkl
+ ┃ ┣ main.py
+ ┃ ┣ scaler_X.pkl
+ ┃ ┣ scaler_y.pkl
+ ┃ ┗ __init__.py
+ ┣ uploads
+ ┃ ┣ .gitkeep
+ ┃ ┣ 20251024_114849_판매사.xlsx
+ ┃ ┗ 20251024_114905_판매사.csv
+ ┣ .env
+ ┣ .gitignore
+ ┣ alembic.ini
+ ┗ requirements.txt

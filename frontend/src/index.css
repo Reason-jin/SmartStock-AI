@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Tailwind CSS 변수 */
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+    
+    /* 기본 폰트 설정 */
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Pretendard', 'Inter', Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html, body, #root {
+    width: 100%;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    min-height: 100vh;
+  }
+}
+
+/* 링크 스타일 */
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* 기본 헤딩 스타일 */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+/* 스크롤바 스타일 (선택사항) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.5);
+}
+
+/* Radix/Popper가 다른 카드/패널 위로 뜨도록 */
+[data-radix-popper-content-wrapper] {
+  z-index: 9999 !important;
+}
+
+/* 알림/유저 드롭다운 등에 바로 쓸 수 있는 공용 클래스 */
+.ssai-popover {
+  position: absolute;
+  right: 0;
+  margin-top: 0.5rem; /* mt-2 */
+  z-index: 10000;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
