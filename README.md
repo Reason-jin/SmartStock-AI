@@ -1,20 +1,10 @@
 # SmartStock AI  
 **“데이터를 이해하고, 발주를 제안하는 AI 재고관리 플랫폼”**
 
-<<<<<<< HEAD
-데이터 업로드 한 번으로 정제 → 예측 → 정책 계산 → 시각화 과정을 자동화하는 AI 재고관리 서비스입니다.  
-FastAPI, TensorFlow, React, MySQL을 통합하여 AI가 데이터를 이해하고 사용자에게 실행 가능한 결정을 제공합니다.
-
----
-
-SmartStock AI는 판매사의 재고 흐름을 예측하고 발주 정책을 자동 계산하여  
-Excel 중심 관리의 한계를 극복하도록 설계되었습니다.
-=======
 SmartStock AI는 ERP/WMS 미보유 기업의 **재고 불일치·품절·과잉재고 문제를 AI로 자동화**하기 위해 설계된 플랫폼입니다.  
 사용자는 데이터를 업로드하기만 하면, 시스템이 스스로 정제하고 예측하며, 최적 발주 정책을 제안합니다.  
 기획 단계부터 FastAPI, TensorFlow, React, MySQL을 하나의 구조로 통합하여  
 “데이터 → 인사이트 → 의사결정”의 전체 여정을 자동화했습니다.
->>>>>>> 347d056 (docs: refined final README with full narrative and visuals)
 
 ---
 
