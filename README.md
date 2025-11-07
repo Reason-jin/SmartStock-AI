@@ -92,8 +92,6 @@ SS = z × σ_demand × √L
 ROP = μ_demand × L + SS
 Q = max(0, ROP + 목표재고 − 현재가용재고)
 
-yaml
-코드 복사
 
 | 지표 | 목표 | 결과 |
 |------|------|------|
@@ -134,10 +132,10 @@ yaml
 | Auto Retraining | Airflow + MLflow | 자동 재학습 파이프라인 구축 |
 | SaaS 전환 | Multi-Tenant 구조 | 중소기업형 구독 서비스화 |
 
-```
+
 
 ## 폴더 구조
-
+```
 SmartStock-AI/
 ┣ backend/
 ┣ frontend/
@@ -154,7 +152,6 @@ SmartStock-AI/
 ┃ ┣ SmartStockAI_User_Guide.pdf
 ┃ ┗ SmartStockAI_Planning_Doc.pdf
 ┗ README.md
-
 
 ```
 
