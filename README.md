@@ -6,9 +6,6 @@ FastAPI, TensorFlow, React, MySQL을 통합하여 AI가 데이터를 이해하�
 
 ---
 
-## Main Page
-![Main Page](images/mainpage_hero.png)
-
 SmartStock AI는 판매사의 재고 흐름을 예측하고 발주 정책을 자동 계산하여  
 Excel 중심 관리의 한계를 극복하도록 설계되었습니다.
 
